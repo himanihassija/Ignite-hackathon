@@ -5,9 +5,6 @@ __pycache__/
 venv/
 .cognee_system/
 .cognee_data/
-sheild-source/
 
-# raw sensor data (large, sourced separately) and unused Kaggle dataset
-data/aqi-recent-10/
-data/delhi-ncr-aqi/
-data/delhi-ncr-aqi-2019-2024.zip
+# Raw + cleaned sensor CSVs (~470 MB) - stay local, loaded into Neo4j by the ETL
+dataset/

@@ -1,16 +1,15 @@
 python-dotenv
 tavily-python
 neo4j
-h3
-slack_bolt
 cognee
 fastapi
 uvicorn
 
-# --- from SHEild.AI (route planning / data analysis) ---
+# --- Track B: API + UI (Exposure-Aware Fleet Routing) ---
+pydantic
 streamlit
-pandas
-plotly
-scikit-learn
-numpy
-requests
+googlemaps
+google-generativeai
+h3
+pywebpush
+pytest
