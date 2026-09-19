@@ -2,6 +2,7 @@ python-dotenv
 tavily-python
 neo4j
 h3
+slack_bolt
 cognee
 fastapi
 uvicorn
