@@ -1,0 +1,48 @@
+Found 21 CSV files in /sessions/rcw-014fjcpeqnqzcxn3dgor5y6t/mnt/Desktop/ignite-hackathon/data/aqi-recent-10
+
+  processed 2021-01-10_all.csv: 154,273 rows, 11 devices
+  processed 2021-01-11_all.csv: 174,698 rows, 10 devices
+  processed 2021-01-12_all.csv: 178,769 rows, 11 devices
+  processed 2021-01-13_all.csv: 222,394 rows, 13 devices
+  processed 2021-01-14_all.csv: 181,622 rows, 12 devices
+  processed 2021-01-15_all.csv: 178,433 rows, 11 devices
+  processed 2021-01-16_all.csv: 183,554 rows, 11 devices
+  processed 2021-01-17_all.csv: 143,709 rows, 9 devices
+  processed 2021-01-18_all.csv: 168,665 rows, 10 devices
+  processed 2021-01-19_all.csv: 167,525 rows, 10 devices
+  processed 2021-01-20_all.csv: 169,740 rows, 10 devices
+  processed 2021-01-21_all.csv: 180,839 rows, 10 devices
+  processed 2021-01-22_all.csv: 184,952 rows, 11 devices
+  processed 2021-01-23_all.csv: 190,986 rows, 12 devices
+  processed 2021-01-24_all.csv: 187,744 rows, 12 devices
+  processed 2021-01-25_all.csv: 166,171 rows, 12 devices
+  processed 2021-01-26_all.csv: 97,868 rows, 7 devices
+  processed 2021-01-27_all.csv: 183,018 rows, 12 devices
+  processed 2021-01-28_all.csv: 190,323 rows, 12 devices
+  processed 2021-01-29_all.csv: 209,438 rows, 12 devices
+  processed 2021-01-30_all.csv: 180,573 rows, 11 devices
+
+======================================================================
+TOTAL rows across all files: 3,695,294
+Rows with a null lat/long/pm2_5/pm10: 0 (0.00%)
+Rows where pm2_5 > pm10 (data quality flag): 489 (0.01%)
+Distinct device IDs across all 20 days: 13
+Overall bounding box: lat [28.48814, 28.67701], long [77.12278, 77.32075]
+
+deviceId             rows  days_span  avg_gap_min         lat_range          long_range
+00000000c37f0aa8   590368       21.0          0.1   28.4901-28.6604     77.1664-77.3073
+00000000d4bc37f2   418097       21.0          0.1   28.4902-28.6767     77.2109-77.3065
+0000000024568afd   345380       20.8          0.1   28.4881-28.6696     77.1228-77.3068
+100000003c7bc0b0   343525       17.9          0.1   28.4900-28.6702     77.2213-77.3207
+10000000dc5bb76b   340738       20.9          0.1   28.4904-28.6767     77.2075-77.3207
+0000000038861c77   301449       20.9          0.1   28.4894-28.6769     77.1242-77.3089
+0000000029c36345   269862       21.0          0.1   28.4882-28.6770     77.2187-77.3100
+00000000812d59d2   268059       21.0          0.1   28.4905-28.6747     77.2236-77.3044
+00000000980cc94b   258709       21.0          0.1   28.4904-28.6767     77.2205-77.3207
+100000004ebd0524   242851       20.8          0.1   28.4896-28.6445     77.1810-77.3052
+00000000078e6811   180919       20.8          0.2   28.4903-28.6682     77.1233-77.3048
+00000000d5ddcf9f    99410        9.7          0.1   28.4904-28.6418     77.1618-77.3074
+000000008f525c6e    35927       16.8          0.7   28.4904-28.6427     77.2075-77.3044
+
+Devices whose coordinates shift >0.001 deg across readings (should be ~0 for fixed sensors): 13
+  -> ['00000000078e6811', '0000000024568afd', '0000000029c36345', '0000000038861c77', '00000000812d59d2', '00000000980cc94b', '00000000c37f0aa8', '00000000d4bc37f2', '00000000d5ddcf9f', '100000004ebd0524', '10000000dc5bb76b', '000000008f525c6e', '100000003c7bc0b0']

@@ -1,6 +1,15 @@
 python-dotenv
 tavily-python
 neo4j
+h3
 cognee
 fastapi
 uvicorn
+
+# --- from SHEild.AI (route planning / data analysis) ---
+streamlit
+pandas
+plotly
+scikit-learn
+numpy
+requests
