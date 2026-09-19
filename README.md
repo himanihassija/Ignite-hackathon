@@ -229,7 +229,7 @@ pytest -q
 
 | Track | Owner | Scope |
 |---|---|---|
-| A — Core data & scoring | Teammate | ETL, zone layer, knowledge graph, seeding |
-| B — Front doors | Vinay | API, sign-in and auth, dispatcher console, rider app and navigation, replay clock, spikes, alerts, web push |
+| A — Core data & scoring | Himani Hassija | ETL, zone layer, knowledge graph, seeding |
+| B — Front doors | Vinay Bhoure | API, sign-in and auth, dispatcher console, rider app and navigation, replay clock, spikes, alerts, web push |
 
 See `docs/prd.md` for the full product requirements and information architecture.
